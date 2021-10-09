@@ -1,0 +1,48 @@
+body
+{
+   margin:0;
+   padding:0;
+
+}
+h1{
+    color:maroon;
+    font-size:35px;
+    padding:20px;
+}
+p
+{
+    font-size:25px;
+    color:rgb(170, 99, 236) ;
+    padding:20px;
+}
+.quick-links
+{
+    display: flex;
+    background-color:rgb(241, 103, 126);
+    position: -webkit-sticky;
+  position: sticky;
+  bottom:0;
+    
+}
+.quick-links ul
+{
+    display: flex;
+}
+.quick-items
+{
+    list-style: none;
+    
+}
+
+
+.quick-items a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    padding: 0px 15px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+   
+    
+}
+
